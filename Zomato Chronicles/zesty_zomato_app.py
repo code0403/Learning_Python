@@ -1,7 +1,6 @@
 # Zesty Zomato Command-Line System
 
 from tabulate import tabulate
-import tkinter as tk
 
 menu = []  # List to store menu items
 orders = {}  # Dictionary to store orders
@@ -146,9 +145,7 @@ def review_orders():
 
 
 def main():
-    root = tk.Tk()
-    root.title("Zesty Zomato")
-
+  
     print("Zomato Chronicles: The Great Food Fiasco")
     while True:
         print("Welcome to Zesty Zomato!")
