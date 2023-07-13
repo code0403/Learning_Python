@@ -1,0 +1,75 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Dish 1",
+            "price": 10.99,
+            "availability": "yes"
+        },
+        {
+            "id": 2,
+            "name": "Dish 2",
+            "price": 8.99,
+            "availability": "yes"
+        },
+        {
+            "id": 3,
+            "name": "Dish 3",
+            "price": 12.99,
+            "availability": "no"
+        },
+        {
+            "id": 4,
+            "name": "Dish 4",
+            "price": 400.0,
+            "availability": "no"
+        }
+    ],
+    "orders": [
+        {
+            "order_id": 1,
+            "customer_name": "Abhishek",
+            "dish_ids": [
+                1
+            ],
+            "status": "delivered",
+            "timestamp": "2023-07-11 13:49:44"
+        },
+        {
+            "order_id": 2,
+            "customer_name": "Amit",
+            "dish_ids": [
+                2
+            ],
+            "status": "received",
+            "timestamp": "2023-07-11 20:23:12"
+        },
+        {
+            "order_id": 3,
+            "customer_name": "Abc",
+            "dish_ids": [
+                2
+            ],
+            "status": "received",
+            "timestamp": "2023-07-13 12:51:55"
+        },
+        {
+            "order_id": 4,
+            "customer_name": "cdef",
+            "dish_ids": [
+                2
+            ],
+            "status": "ready for pickup",
+            "timestamp": "2023-07-13 12:54:28"
+        },
+        {
+            "order_id": 5,
+            "customer_name": "fghj",
+            "dish_ids": [
+                1
+            ],
+            "status": "delivered",
+            "timestamp": "2023-07-13 12:56:36"
+        }
+    ]
+}
